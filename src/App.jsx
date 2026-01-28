@@ -1,9 +1,12 @@
-import { useState } from "react";
-
 import "./App.css";
+import SpellCheckApp from "./Components/SpellcheckApp";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <SpellCheckApp />
+    </>
+  );
 }
 
 export default App;
